@@ -8,7 +8,6 @@ from datetime import date
 import streamlit as st
 
 def create_cover_letter(company: str, role: str, resume: str, name: str, hr_name: str, email: str):
-    # openai_api_key = "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"
     openai_secret = st.secrets.get("openai")
     openai_api_key = openai_secret.get("key")
 
