@@ -7,7 +7,6 @@ import streamlit as st
 # custom serp api wrapper for searching the company's job description page
 class CustomSerpAPIWrapperJobSearch(SerpAPIWrapper):
     def __init__(self):
-        # serpapi_api_key = "b755b37c554df0d1bd5de8e25dbef5ad0d2e36be5ebe3589f0853f176a7ee266"
         serpapi_secret = st.secrets.get("serpapi")
         serpapi_api_key = serpapi_secret.get("key")
         super(CustomSerpAPIWrapperJobSearch, self).__init__(serpapi_api_key=serpapi_api_key)
@@ -54,7 +53,6 @@ def get_job_description(company: str):
 
 def lookup(company: str, role: str) -> str:
     # openai api key
-    # openai_api_key = "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"
     openai_secret = st.secrets.get("openai")
     openai_api_key = openai_secret.get("key")
     # GPT LLM model
