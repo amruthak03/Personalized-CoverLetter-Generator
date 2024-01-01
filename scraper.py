@@ -6,7 +6,6 @@ import streamlit as st
 
 # function to scrape the job description and qualifications from the job website for the company url fetched
 def company_scraper(company_url:str):
-    # openai_api_key = "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"
     openai_secret = st.secrets.get("openai")
     openai_api_key = openai_secret.get("key")
     llm = ChatOpenAI(temperature=0, model_name='gpt-3.5-turbo', openai_api_key=openai_api_key)
