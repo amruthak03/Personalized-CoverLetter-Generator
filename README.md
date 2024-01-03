@@ -11,6 +11,8 @@ Welcome to an AI-Powered Personalized Cover Letter Generator! This project is an
 
 4. Streamlit - Streamlit is used to build the user interface, providing a simple and interactive environment for users to generate and customize their cover letters.
 
+5. PyCharm - PyCharm is the integrated development environment (IDE) used for coding and managing the project.
+
 ## Features
 Integrated Application: Our project brings together various technologies, including LangChain, OpenAI’s GPT-3.5-turbo, SerpAPI, and Streamlit, to provide a seamless and efficient user experience for generating personalized cover letters.
 
