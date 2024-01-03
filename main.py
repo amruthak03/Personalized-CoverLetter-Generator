@@ -5,11 +5,9 @@ from website_url_fetcher import lookup as company_lookup_agent
 from scraper import company_scraper
 from constant_templates import Task_Description_Template
 from datetime import date
-import streamlit as st
 
 def create_cover_letter(company: str, role: str, resume: str, name: str, hr_name: str, email: str):
-    openai_secret = st.secrets.get("openai")
-    openai_api_key = openai_secret.get("key")
+    openai_api_key = 'YOUR_API_KEY'
 
     company_url_text = company_lookup_agent(company=company, role=role)
     print('company_url_text', company_url_text)
