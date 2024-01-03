@@ -3,15 +3,8 @@ import io
 from PyPDF2 import PdfReader
 from main import create_cover_letter
 
-st.set_page_config(layout="wide")
 st.image("https://cdn.mos.cms.futurecdn.net/u5bN26Y7eYqrGYHDrBKqDk.jpg", width=600)
 st.header("Stop Drafting, Start Applying: AI-Powered Cover Letter Crafting")
-
-openai_secret = st.secrets.get("openai")
-
-if openai_secret is None:
-    st.error("Required secrets are missing. Please check your secrets configuration.")
-    st.stop()
 
 company = st.text_input("Name of Company", placeholder="Enter your preferred company name")
 role = st.text_input("Role", placeholder="Enter your preferred role")
