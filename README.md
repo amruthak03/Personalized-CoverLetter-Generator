@@ -18,3 +18,51 @@ Dynamic Prompt Templates: We have engineered dynamic prompt templates that intel
 
 SerpAPI Integration: Leveraging SerpAPI, we have streamlined the cover letter personalization process by automatically extracting company job description URLs and key information. This integration enhances the accuracy and relevance of the generated cover letters.
 
+## Getting Started
+
+To use the AI-Powered Personalized Cover Letter Generator, follow these steps:
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/amruthak03/Personalized-CoverLetter-Generator.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd Personalized-CoverLetter-Generator
+    ```
+
+3. Open the `website_url_fetcher.py` file and replace the placeholder 'YOUR_API_KEY' with your actual API key wherever it is used:
+
+    ```python
+    # website_url_fetcher.py
+
+    # Replace 'YOUR_API_KEY' with your actual API key
+    api_key = 'YOUR_API_KEY'
+    ```
+
+   Repeat this process for any other Python files in the project where 'YOUR_API_KEY' is used.
+
+4. Install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. Run the application:
+
+    ```bash
+    streamlit run streamlit_app.py
+    ```
+
+6. Access the application in your web browser at [http://localhost:8501](http://localhost:8501).
+
+## Usage
+1. Upload your resume and provide any additional information required.
+2. Enter the company name and job title.
+3. Click the "Generate Cover Letter" button.
+5. Download the personalized cover letter.
+6. Review and customize the generated cover letter as needed.
+
