@@ -40,7 +40,8 @@ To use the AI-Powered Personalized Cover Letter Generator, follow these steps:
     # website_url_fetcher.py
 
     # Replace 'YOUR_API_KEY' with your actual API key
-    api_key = 'YOUR_API_KEY'
+    serpapi_api_key = 'YOUR_API_KEY'
+    openai_api_key = 'YOUR_API_KEY'
     ```
 
    Repeat this process for any other Python files in the project where 'YOUR_API_KEY' is used.
