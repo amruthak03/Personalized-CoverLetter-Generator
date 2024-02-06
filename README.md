@@ -63,6 +63,8 @@ To use the AI-Powered Personalized Cover Letter Generator, follow these steps:
 6. Access the application in your web browser at [http://localhost:8501](http://localhost:8501)
 <img width="361" alt="image" src="https://github.com/amruthak03/Personalized-CoverLetter-Generator/assets/110037114/55b5f1f7-906b-44bd-a768-aa418f0ca04b">
 
+The application looks like this
+
 ## Usage
 1. Upload your resume and provide any additional information required.
 2. Enter the company name and job title.
