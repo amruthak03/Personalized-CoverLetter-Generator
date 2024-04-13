@@ -24,8 +24,6 @@ if upload_file is not None:
         text += page.extract_text()
 
     if company and role and text:
-        # print("Company entered:", company)
-        # print("Role entered:", role)
         if st.button("Generate Cover Letter"):  # Check if the button is clicked
             with st.spinner("Generating your cover letter"):
                 generated_response = create_cover_letter(company=company, role=role, resume=text, name=name,
