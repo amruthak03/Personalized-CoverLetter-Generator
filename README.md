@@ -14,15 +14,15 @@ Welcome to an AI-Powered Personalized Cover Letter Generator! This project is an
 5. PyCharm - PyCharm is the integrated development environment (IDE) used for coding and managing the project.
 
 ## Features
-Integrated Application: Our project brings together various technologies, including LangChain, OpenAI’s GPT-3.5-turbo, SerpAPI, and Streamlit, to provide a seamless and efficient user experience for generating personalized cover letters.
+Integrated Application: This project brings together various technologies, including LangChain, OpenAI’s GPT-3.5-turbo, SerpAPI, and Streamlit, to provide a seamless and efficient user experience for generating personalized cover letters.
 
-Dynamic Prompt Templates: We have engineered dynamic prompt templates that intelligently align extracted resume information with relevant details from job descriptions. This ensures that your cover letters are tailored to the specific requirements of each job.
+Dynamic Prompt Templates: Engineered dynamic prompt templates that intelligently align extracted resume information with relevant details from job descriptions. This ensures that your cover letters are tailored to the specific requirements of each job.
 
-SerpAPI Integration: Leveraging SerpAPI, we have streamlined the cover letter personalization process by automatically extracting company job description URLs and key information. This integration enhances the accuracy and relevance of the generated cover letters.
+SerpAPI Integration: Leveraging SerpAPI, streamlined the cover letter personalization process by automatically extracting company job description URLs and key information. This integration enhances the accuracy and relevance of the generated cover letters.
 
 ## Getting Started
 
-To use the AI-Powered Personalized Cover Letter Generator, follow these steps:
+To use the AI-powered Personalized Cover Letter Generator, follow these steps:
 
 1. Clone the repository:
 
